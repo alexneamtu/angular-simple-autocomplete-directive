@@ -1,5 +1,5 @@
 /*
- * angular-simple-autocomplete-directive v1.0.4
+ * angular-simple-autocomplete-directive v1.0.5
  * (c) 2016 Alex Neamtu
  * License: MIT
  */
@@ -7,7 +7,7 @@
 'use strict';
 
 angular.module('simple-autocomplete', [])
-    .directive('autocomplete', [, function () {
+    .directive('autocomplete', function () {
         return {
             restrict: 'AE',
             scope: {
@@ -21,4 +21,4 @@ angular.module('simple-autocomplete', [])
             controller: require('./controllers/autocompleteController')
 
         }
-    }]);
+    });
