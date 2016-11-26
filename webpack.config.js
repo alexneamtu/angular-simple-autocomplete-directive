@@ -1,6 +1,6 @@
 module.exports = {
     entry: './index.js',
-    target: 'node',
+    target: 'web',
     output: {
         path: './dist',
         filename: 'build.js',
@@ -8,7 +8,7 @@ module.exports = {
     },
     module: {
         loaders: [
-            { test: /\.js$/, loader: 'babel', exclude: /node_modules/ },
+            { test: /\.js$/, loader: 'babel', exclude: /node_modules/},
             { test: /\.html$/, loader: 'html' },
         ]
     }
