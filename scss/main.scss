@@ -1,14 +1,10 @@
 .autocomplete {
-  input {
-    border: none;
-    border: none;
-    background-color: transparent;
-  }
   ul {
     background-color: #fff;
     border: 1px solid #efefef;
     width: 150px;
     padding: 0px;
+    margin-top: 0px;
     position: absolute;
     z-index: 1;
     li {
