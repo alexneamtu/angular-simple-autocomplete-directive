@@ -8,4 +8,4 @@ NPM package for a simple AngularJS autocomplete directive.
 
 
 ## License
-ISC
+MIT
