@@ -5,7 +5,7 @@ module.exports = function (config) {
         basePath: '',
         files: [
             'node_modules/angular/angular.js',
-            'dist/build.js',
+            'dist/main.js',
             'tests/*.spec.js'
         ],
 

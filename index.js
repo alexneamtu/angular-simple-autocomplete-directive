@@ -1,5 +1,5 @@
 /*
- * angular-simple-autocomplete-directive v1.0.7
+ * angular-simple-autocomplete-directive v1.0.8
  * (c) 2016 Alex Neamtu
  * License: MIT
  */

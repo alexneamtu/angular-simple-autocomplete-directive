@@ -1,8 +1,8 @@
 {
   "name": "angular-simple-autocomplete-directive",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "Simple AngularJS autocomplete directive",
-  "main": "dist/build.js",
+  "main": "dist/main.js",
   "scripts": {
     "start": "webpack -w",
     "build": "webpack -p",
@@ -36,12 +36,16 @@
     "babel-preset-es2015": "^6.18.0",
     "babel-preset-es2016": "^6.16.0",
     "babel-preset-stage-0": "^6.16.0",
+    "css-loader": "^0.26.0",
+    "extract-text-webpack-plugin": "^1.0.1",
     "html-loader": "^0.4.4",
     "jasmine-core": "^2.5.2",
     "karma": "^1.3.0",
     "karma-chrome-launcher": "^2.0.0",
     "karma-firefox-launcher": "^1.0.0",
     "karma-jasmine": "^1.0.2",
+    "node-sass": "^3.13.0",
+    "sass-loader": "^4.0.2",
     "webpack": "^1.13.3"
   },
   "dependencies": {
