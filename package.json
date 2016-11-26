@@ -1,6 +1,6 @@
 {
   "name": "angular-simple-autocomplete-directive",
-  "version": "1.0.15",
+  "version": "1.0.16",
   "description": "Simple AngularJS autocomplete directive",
   "main": "dist/main.js",
   "scripts": {
@@ -45,6 +45,7 @@
     "karma-chrome-launcher": "^2.0.0",
     "karma-firefox-launcher": "^1.0.0",
     "karma-jasmine": "^1.0.2",
+    "karma-phantomjs-launcher": "^1.0.2",
     "node-sass": "^3.13.0",
     "sass-loader": "^4.0.2",
     "webpack": "^1.13.3"
