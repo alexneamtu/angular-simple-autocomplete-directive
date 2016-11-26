@@ -1,11 +1,12 @@
 /*
- * angular-simple-autocomplete-directive v1.0.2
+ * angular-simple-autocomplete-directive v1.0.3
  * (c) 2016 Alex Neamtu
  * License: MIT
  */
 
 'use strict';
 
+import angular from 'angular';
 
 angular.module('simple-autocomplete', [])
     .directive('autocomplete', [, function () {
