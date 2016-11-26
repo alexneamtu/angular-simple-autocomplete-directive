@@ -1,6 +1,5 @@
-var test = require('ava');
-var myModule = require('../dist/build');
+describe('simple-autocomplete', function () {
+    it('should work as an element', function () {
+    });
 
-// test('the log method', t => {
-//     t.is(myModule.log('hi'), 'Logging the message : hi');
-// });
+});

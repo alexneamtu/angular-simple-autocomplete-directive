@@ -6,6 +6,7 @@
 
 'use strict';
 
+
 angular.module('simple-autocomplete', [])
     .directive('autocomplete', [, function () {
         return {

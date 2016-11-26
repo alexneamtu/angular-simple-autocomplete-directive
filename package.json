@@ -6,8 +6,7 @@
   "scripts": {
     "start": "webpack -w",
     "build": "webpack -p",
-    "test": "ava tests/**/*.js",
-    "test-w": "ava -w tests/**/*.js",
+    "test": "./node_modules/karma/bin/karma start --browsers Firefox --single-run",
     "prepublish": "npm build && npm test"
   },
   "repository": {
@@ -30,12 +29,16 @@
   },
   "homepage": "https://github.com/alexneamtu/angular-simple-autocomplete-directive#readme",
   "devDependencies": {
-    "ava": "^0.17.0",
     "babel-loader": "^6.2.8",
     "babel-plugin-add-module-exports": "^0.2.1",
     "babel-preset-es2015": "^6.18.0",
     "babel-preset-stage-0": "^6.16.0",
     "html-loader": "^0.4.4",
+    "jasmine-core": "^2.5.2",
+    "karma": "^1.3.0",
+    "karma-chrome-launcher": "^2.0.0",
+    "karma-firefox-launcher": "^1.0.0",
+    "karma-jasmine": "^1.0.2",
     "webpack": "^1.13.3"
   }
 }
