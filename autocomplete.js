@@ -1,3 +1,9 @@
+/*
+ * angular-simple-autocomplete-directive v1.0.10
+ * (c) 2016 Alex Neamtu
+ * License: MIT
+ */
+
 var autocompleteTmpl = require('./templates/autocomplete.html');
 
 class controller {

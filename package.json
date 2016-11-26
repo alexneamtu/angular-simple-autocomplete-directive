@@ -1,6 +1,6 @@
 {
   "name": "angular-simple-autocomplete-directive",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "description": "Simple AngularJS autocomplete directive",
   "main": "dist/main.js",
   "scripts": {
