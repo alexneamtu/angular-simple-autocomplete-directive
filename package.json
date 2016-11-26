@@ -1,12 +1,12 @@
 {
   "name": "angular-simple-autocomplete-directive",
-  "version": "1.0.13",
+  "version": "1.0.14",
   "description": "Simple AngularJS autocomplete directive",
   "main": "dist/main.js",
   "scripts": {
     "start": "webpack -w",
     "build": "webpack -p",
-    "test": "./node_modules/karma/bin/karma start --browsers Firefox --single-run",
+    "test": "./node_modules/karma/bin/karma start --single-run --browsers PhantomJS",
     "prepublish": "npm build && npm test"
   },
   "repository": {
