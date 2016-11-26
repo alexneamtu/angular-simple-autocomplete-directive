@@ -29,6 +29,7 @@
   },
   "homepage": "https://github.com/alexneamtu/angular-simple-autocomplete-directive#readme",
   "devDependencies": {
+    "angular-mocks": "^1.5.9",
     "babel-cli": "^6.18.0",
     "babel-core": "^6.18.2",
     "babel-loader": "^6.2.8",
