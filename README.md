@@ -6,6 +6,8 @@ NPM package for a simple AngularJS autocomplete directive.
 ## Usage
 To install the package, run:
 `npm install angular-simple-autocomplete-directive`
+or
+`bower install angular-simple-autocomplete-directive`
 
 Include the script and the css into your project:
 ```html
